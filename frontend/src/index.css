@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: vaz, sans-serif;
+  font-display: swap;
+  src: url("/src/assets/fonts/Vazirmatn-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "vazirBold";
+  font-display: swap;
+  src: url("/src/assets/fonts/Vazirmatn-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+.input{
+  @apply  w-full px-4 py-3 mt-4 rounded-md bg-gray-100 outline-gray-300 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0
+}
+.errorMessage{
+  @apply text-sm text-red-600
+}
+.registerBtn{
+  @apply w-full bg-[#55A3F0] text-white py-3 rounded-md hover:bg-blue-500/80 transition duration-200 disabled:bg-blue-300 cursor-pointer
+}
+
+.tableHead{
+  @apply  px-6 py-3  text-center  text-xs font-medium text-gray-800 uppercase  tracking-widest last:w-1/12
+}
+.tdElement{
+  @apply px-6 py-4 whitespace-nowrap  font-sans font-normal text-gray-900 text-center
+}
+
+body {
+  @apply bg-white
+}
