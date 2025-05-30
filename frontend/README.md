@@ -1,12 +1,30 @@
-# React + Vite
+# 📦 Warehouse App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modular **warehouse management app**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔑 Key Features
 
-## Expanding the ESLint configuration
+- ⚛️ Built with **##React + Vite**
+- 🎨 Styled using **TailwindCSS**
+- 🧾 Form handling with **react-hook-form**
+- ✅ Robust validation using **Yup**
+- 🔗 API integration with **Axios**
+- 🍪 Session management using **js-cookie**
+- 🔄 Data fetching and caching with **React Query**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Technical Details
+
+| Feature                | Tools                |
+|------------------------|----------------------|
+| Frontend Framework     | React + Vite         |
+| Styling                | TailwindCSS          |
+| Form Management        | react-hook-form      |
+| Validation             | Yup                  |
+| API Client             | Axios                |
+| Cookie Management      | js-cookie            |
+| Data Fetching & Caching| React Query(TanStack)|
+
